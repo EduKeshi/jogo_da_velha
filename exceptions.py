@@ -1,0 +1,2 @@
+class LugarInvalidoError(Exception):
+    pass
