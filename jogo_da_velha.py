@@ -1,8 +1,6 @@
 from random import randrange
 
-
-class LugarInvalidoError(Exception):
-    pass
+from exceptions import LugarInvalidoError
 
 
 def make_board(size=3):
